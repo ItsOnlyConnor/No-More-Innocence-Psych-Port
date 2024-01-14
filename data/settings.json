@@ -1,0 +1,121 @@
+[
+	// All types:
+	// bool - Has a checkbox only, meaning it can only be 'true' or 'false'.
+	// int - Numbers with no decimals (ex. 1, 3, 9, -1)
+	// float - Similar to int, but numbers can have decimals (ex. 1.5, 2.75)
+	// percent - Similar to float, but the displayed value is multiplied by 100 (ex. 1.1 will be displayed as "110%")
+	// string - A text instead of numbers/false and true, you gotta set up "options" variable to it
+	// key - TO BE IMPLEMENTED
+	{
+		"save": "chromaticShader",
+		"name": "Chromatic Abberration", //Name shown on the mod settings menu
+		"type": "bool",
+		"description": "Toggles chromatic abberration, may cause lag on lower end systems.", //Description shown on the mod settings menu
+		"value": true //This is the default value
+	},
+	{
+		"save": "bgShader",
+		"name": "Background Shader", //Name shown on the mod settings menu
+		"type": "bool",
+		"description": "Toggles background shaders, may cause lag on lower end systems.", //Description shown on the mod settings menu
+		"value": true //This is the default value
+	},
+	{
+		"save": "selfAware",
+		"name": "Self Awareness", //Name shown on the mod settings menu
+		"type": "bool",
+		"description": "When enabled, the game can refer to your PC's info. \n(Player's name, OS information, etc.)", //Description shown on the mod settings menu
+		"value": true //This is the default value
+	},
+	{
+		"save": "windowNotif",
+		"name": "Window Notifications", //Name shown on the mod settings menu
+		"type": "bool",
+		"description": "When enabled, the game uses window notifications to communicate.", //Description shown on the mod settings menu
+		"value": true //This is the default value
+	},
+	{
+		"save": "windowMode",
+		"name": "Force Windowed Mode", //Name shown on the mod settings menu
+		"type": "bool",
+		"description": "When enabled, the forces Windowed Mode during some songs.\n(Recommended)", //Description shown on the mod settings menu
+		"value": true //This is the default value
+	},
+	{
+		"save": "nameChanging",
+		"name": "Window Name Changing", //Name shown on the mod settings menu
+		"type": "bool",
+		"description": "When enabled, the window's name and icon will change.", //Description shown on the mod settings menu
+		"value": true //This is the default value
+	},
+	{
+		"save": "windowMovement",
+		"name": "Window Movement", //Name shown on the mod settings menu
+		"type": "bool",
+		"description": "When enabled, the game's window can move at times.", //Description shown on the mod settings menu
+		"value": true //This is the default value
+	},
+	{
+		"save": "windowZooming",
+		"name": "Window Zooming", //Name shown on the mod settings menu
+		"type": "bool",
+		"description": "When enabled, the game's window zooms in and out at certain parts.\nCan cause lag on MOST systems.", //Description shown on the mod settings menu
+		"value": false //This is the default value
+	},
+	{
+		"save": "pcMech",
+		"name": "Computer Mechanics", //Name shown on the mod settings menu
+		"type": "bool",
+		"description": "When enabled, the game can mess with the computer.", //Description shown on the mod settings menu
+		"value": true //This is the default value
+	},
+	{
+		"save": "pcCrash",
+		"name": "Computer Shutdown -",
+		"type": "string",
+		"description": "Refers to shutting down your computer.\nEnabled - Completely shutdowns the user's computer.\nSoft - Signs the user out of the computer. (Recommended)\nDisabled - Disables computer shutdowns entirely.",
+		"value": "Soft",
+		//"format": "%vday", //Text formatting, '%v' means 'current value', so if my current value is 'Fri', it wil be shown as 'Friday'. You can also use '%d' to represent the default value
+
+		// String only variables
+		"options": ["Enabled", "Soft", "Disabled"] //Available options to choose
+	}
+	
+	
+	
+
+	/*{
+		"save": "testnumber",
+		"name": "Test Number Option",
+		"type": "float", //
+		"description": "This is a test number option",
+		"value": 5,
+	
+		// Int/Float/Percent only variables
+		"min": 0, //How low can the value be
+		"max": 10, //How high can the value be
+		"step": 1, //How much is changed at once when you press left/right
+
+		// Float/Percent only variables
+		"decimals": 1, //If your option is type 'float' or 'percent', you should probably make it have atleast 1 decimal places
+		"scroll": 5 //How fast you scroll while holding left/right (in this case, it changes 5 per second)
+	},
+	{
+		"save": "teststring",
+		"name": "Test String Option",
+		"type": "string",
+		"description": "This is a test string option",
+		"value": "Sun",
+		"format": "%vday", //Text formatting, '%v' means 'current value', so if my current value is 'Fri', it wil be shown as 'Friday'. You can also use '%d' to represent the default value
+
+		// String only variables
+		"options": ["Sun", "Mon", "Tues", "Wednes", "Thurs", "Fri", "Satur"] //Available options to choose
+	},
+	{
+		"save": "testkey",
+		"name": "Test Custom Key",
+		"type": "keybind",
+		"keyboard": "T",
+		"gamepad": "RIGHT_TRIGGER"
+	}*/
+]

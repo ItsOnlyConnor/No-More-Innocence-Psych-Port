@@ -1,0 +1,123 @@
+{
+	"animations": [
+		{
+			"offsets": [
+				20,
+				174
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUP",
+			"indices": [],
+			"name": "Tails Up0"
+		},
+		{
+			"offsets": [
+				-88,
+				122
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFT",
+			"indices": [],
+			"name": "Tails Left0"
+		},
+		{
+			"offsets": [
+				106,
+				115
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHT",
+			"indices": [],
+			"name": "Tails Right0"
+		},
+		{
+			"offsets": [
+				-3,
+				7
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWN",
+			"indices": [],
+			"name": "Tails Down0"
+		},
+		{
+			"offsets": [
+				20,
+				174
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singUPmiss",
+			"indices": [],
+			"name": "Tails Up MISS"
+		},
+		{
+			"offsets": [
+				106,
+				115
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"indices": [],
+			"name": "Tails Right MISS"
+		},
+		{
+			"offsets": [
+				-88,
+				122
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singLEFTmiss",
+			"indices": [],
+			"name": "Tails Left MISS"
+		},
+		{
+			"offsets": [
+				-3,
+				7
+			],
+			"loop": false,
+			"fps": 24,
+			"anim": "singDOWNmiss",
+			"indices": [],
+			"name": "Tails Down MISS"
+		},
+		{
+			"loop": true,
+			"offsets": [
+				-95,
+				124
+			],
+			"anim": "idle",
+			"fps": 24,
+			"name": "Tails Idle",
+			"indices": []
+		}
+	],
+	"no_antialiasing": false,
+	"image": "characters/Tails",
+	"position": [
+		20,
+		400
+	],
+	"healthicon": "tails",
+	"flip_x": false,
+	"healthbar_colors": [
+		254,
+		146,
+		13
+	],
+	"camera_position": [
+		0,
+		0
+	],
+	"sing_duration": 4,
+	"scale": 1,
+	"_editor_isPlayer": true
+}
