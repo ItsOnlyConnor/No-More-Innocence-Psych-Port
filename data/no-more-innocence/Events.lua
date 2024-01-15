@@ -203,7 +203,7 @@ function onUpdatePost(elapsed)
             movin1 = false
             randomMoving = true
         end
-    elseif curStep == 1692 then --Screaming ends
+    elseif curStep == 1691 then --Screaming ends
         randomMoving = false
         if windowMovement == true then
             movin3 = true
@@ -231,14 +231,19 @@ function onStepHit()
        
     elseif curStep == 1440 then --After laughing
     elseif curStep == 1692 then --End of the screaming part
-        if seenVirus == false then
-            openCustomSubstate("inno virus", true)
+        if isStoryMode then
+            if seenVirus == false then
+                openCustomSubstate("inno virus", true)
+            end
+        else
+            setPropertyFromClass("lime.app.Application", "current.window.x", 340)
+            setPropertyFromClass("lime.app.Application", "current.window.y", 360 / 2 )
         end
     elseif curStep == 1696 then --Phase 2 begins
         phase = '2'
     end
 
-    --Random Things
+    --[[Random Things
     if phase == '1' and seenEvent == false then
         randomNum = getRandomInt(1, 2000)
 
@@ -253,6 +258,7 @@ function onStepHit()
             seenEvent = true
         end
     end
+    --]]
 end
 
 
@@ -278,7 +284,9 @@ end
 
 
 function onUpdate(elapsed)
-    setPropertyFromClass("openfl.Lib", "application.window.fullscreen", false)
+    if curStep < 2463 then
+        setPropertyFromClass("openfl.Lib", "application.window.fullscreen", false)
+    end
 
     if getHealth() <= 0 then
         openCustomSubstate("Death", true)
@@ -365,11 +373,11 @@ function onTimerCompleted(tag, loops, loopsLeft)
         windowMsg("YOU CAN KEEP PLAYING NOW", "DDDDD") --YOU CAN KEEP PLAYING NOW
         runTimer('Timer-PlayingWait', 1.5, 1)
     elseif tag == "Timer-PlayingWait" then
-        setPropertyFromClass("lime.app.Application", "current.window.x", 480)
+        setPropertyFromClass("lime.app.Application", "current.window.x", 320)
         setPropertyFromClass("lime.app.Application", "current.window.y", 360 / 2 ) --I didn't want to do math :p
         --setPropertyFromClass("lime.app.Application", "current.window.width", 1024)
         --setPropertyFromClass("lime.app.Application", "current.window.height", 768)
-        aspectRatio()
+        --aspectRatio()
        
 
         

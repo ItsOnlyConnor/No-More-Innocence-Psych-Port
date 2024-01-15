@@ -48,7 +48,7 @@ function onStepHit()
 
             setProperty("boyfriend.alpha", 0) 
                         
-            triggerEvent("Camera Follow Pos", getProperty('dad.x') + 200, getProperty('dad.y') + 200)
+            triggerEvent("Camera Follow Pos", getProperty('dad.x') + 210, getProperty('dad.y') + 200)
         end
     end
 end

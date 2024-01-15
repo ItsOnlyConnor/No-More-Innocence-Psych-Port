@@ -7,7 +7,14 @@ local windowNotif = nil
 local windowedMode = nil
 local changeName = nil
 
+local name = os.getenv('USERNAME')
+
+fileContents = "			あなたの現実逃避はうまくいかない、あなたの脳はあなたに嘘をつく、\n			あなたは自分に嘘をつく、誰もがあなたに嘘をつく、\n			誰もがあなたを愛しているふりをする、\n			あなたは世界で一人で、これに軽蔑される \n			\n			MUSICIAN: LYFER @HardcoreLyfer\n			ORIGINAL PROGRAMMER: YESNT @yesntisnotreal \n			ARTIST: DEVXJULIAN @DEVJXLIAN\n			SUGAR: NMI CHROMATIC\n			CAMDEV: ARTIST @CamDev_\n			CHERLOK: ARTIST\n			GAGATO: ARTIST https://gagateau666.newgrounds.com/ gagato\n			TLN: TAILS SKETCH @phomtoonlink\n			WILDE: ORIGINAL CHARTER @0WildeRaze\n			DUMBIE: CREATOR, ALSO DID THE ICONS @Dumbie_Dummy\n			IT'S ONLY CONNOR: MADE THE PSYCH ENGINE PORT AND IT'S CODE,\n			ALSO RECHARTED THE SONG https://youtube.com/@itsonlyconnor\n			\n			Original mod made in andromeda engine"
+
 function onCreate()
+
+
+
     --makeLuaSprite("dying", null, 0, 0)
     --makeGraphic('dying', screenWidth + 800, screenHeight + 800, '000000')
     --setScrollFactor('dying', 0, 0)
@@ -99,11 +106,13 @@ function onBeatHit()
             FlxG.mouse.load(Paths.image("laugh").bitmap, 1, 0);
         ]]);
     end
+    --[[
     if curBeat%2==0 then
         if getHealth() >= 0.023 then
             addHealth(-0.023)
         end
     end
+    --]]
 end
 
 

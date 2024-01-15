@@ -1,16 +1,16 @@
 {
 	"storyName": "error",
 	"difficulties": "Hard",
-	"hideFreeplay": true,
+	"hideFreeplay": false,
 	"weekBackground": "",
-	"weekBefore": "tutorial",
+	"weekBefore": "innocence",
 	"freeplayColor": [
 		146,
 		113,
 		253
 	],
-	"startUnlocked": true,
-	"hideStoryMode": false,
+	"startUnlocked": false,
+	"hideStoryMode": true,
 	"songs": [
 		[
 			"NO MORE INNOCENCE",
@@ -27,6 +27,6 @@
 		"",
 		""
 	],
-	"hiddenUntilUnlocked": false,
+	"hiddenUntilUnlocked": true,
 	"weekName": "NMI"
 }

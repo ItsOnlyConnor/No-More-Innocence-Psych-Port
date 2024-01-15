@@ -1,0 +1,31 @@
+{
+	"song": {
+		"events": [
+			[
+				125098.522167488,
+				[
+					[
+						"Change Character",
+						"Dad",
+						"innoFP"
+					],
+					[
+						"Play Animation",
+						"Dad",
+						"appear"
+					]
+				]
+			],
+			[
+				182068.965517241,
+				[
+					[
+						"Set Property",
+						"vocals.volume",
+						"1.25"
+					]
+				]
+			]
+		]
+	}
+}
