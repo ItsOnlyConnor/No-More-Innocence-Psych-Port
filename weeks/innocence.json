@@ -1,7 +1,7 @@
 {
 	"storyName": "error",
 	"difficulties": "Hard",
-	"hideFreeplay": true,
+	"hideFreeplay": false,
 	"weekBackground": "",
 	"weekBefore": "tutorial",
 	"freeplayColor": [
