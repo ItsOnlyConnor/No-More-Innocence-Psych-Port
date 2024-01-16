@@ -1,0 +1,6 @@
+Zooms On Beat Hit.
+
+Value 1 = Game Cam Zoom Int
+Value 2 = Hud Cam Zoom Int
+
+Leave 0 to disable.

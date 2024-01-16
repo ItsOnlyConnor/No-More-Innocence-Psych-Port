@@ -4,6 +4,8 @@ local enabled = false
 
 
 function onCreate()
+    
+
     if middlescroll == false then
         defaultMiddleScroll = false
         setPropertyFromClass('backend.ClientPrefs', 'data.middleScroll', true)
@@ -59,6 +61,8 @@ function onUpdatePost(elapsed)
     setProperty("timeBar.visible", false)
     setProperty("timeTxt.visible", false)
 
+    setProperty('showRating', false)
+    setProperty('showComboNum', false)
 
 
     if enabled == true then

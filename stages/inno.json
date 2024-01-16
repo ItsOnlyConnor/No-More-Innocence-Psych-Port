@@ -1,15 +1,15 @@
 {
 	"directory": "",
-	"defaultZoom": 0.8,
+	"defaultZoom": 0.75,
 	"stageUI": "",
 
-	"boyfriend": [1400, -350], //place holder locations.
-	"girlfriend": [1500, 0],
-	"opponent": [400, -400],
-	"hide_girlfriend": true, //make her invisble in game, the camera will start out of bounds if not.
+	"boyfriend": [1780, -470], //place holder locations.
+	"girlfriend": [1300, -200],
+	"opponent": [600, -470],
+	"hide_girlfriend": false, //make her invisble in game, the camera will start out of bounds if not.
 
 	"camera_boyfriend": [-50, -50],
-	"camera_opponent": [0, -50],
+	"camera_opponent": [0, 0],
 	"camera_girlfriend": [0, 0],
-	"camera_speed": 1
+	"camera_speed": 1.4
 }

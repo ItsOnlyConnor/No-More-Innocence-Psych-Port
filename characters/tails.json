@@ -1,25 +1,80 @@
 {
 	"animations": [
 		{
+			"loop": false,
 			"offsets": [
 				20,
 				174
 			],
-			"loop": false,
-			"fps": 24,
 			"anim": "singUP",
+			"fps": 24,
+			"name": "Tails Up0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				7
+			],
+			"anim": "singDOWN",
+			"fps": 24,
+			"name": "Tails Down0",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				20,
+				174
+			],
+			"anim": "singUPmiss",
+			"fps": 24,
+			"name": "Tails Up MISS",
+			"indices": []
+		},
+		{
+			"loop": false,
+			"offsets": [
+				-3,
+				7
+			],
+			"anim": "singDOWNmiss",
+			"fps": 24,
+			"name": "Tails Down MISS",
+			"indices": []
+		},
+		{
+			"offsets": [
+				-95,
+				124
+			],
+			"loop": true,
+			"fps": 24,
+			"anim": "idle",
 			"indices": [],
-			"name": "Tails Up0"
+			"name": "Tails Idle"
+		},
+		{
+			"offsets": [
+				106,
+				115
+			],
+			"indices": [],
+			"fps": 24,
+			"anim": "singLEFT",
+			"loop": false,
+			"name": "Tails Right0"
 		},
 		{
 			"offsets": [
 				-88,
 				122
 			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singLEFT",
 			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHT",
+			"loop": false,
 			"name": "Tails Left0"
 		},
 		{
@@ -27,43 +82,10 @@
 				106,
 				115
 			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singRIGHT",
 			"indices": [],
-			"name": "Tails Right0"
-		},
-		{
-			"offsets": [
-				-3,
-				7
-			],
-			"loop": false,
 			"fps": 24,
-			"anim": "singDOWN",
-			"indices": [],
-			"name": "Tails Down0"
-		},
-		{
-			"offsets": [
-				20,
-				174
-			],
+			"anim": "singLEFTmiss",
 			"loop": false,
-			"fps": 24,
-			"anim": "singUPmiss",
-			"indices": [],
-			"name": "Tails Up MISS"
-		},
-		{
-			"offsets": [
-				106,
-				115
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singRIGHTmiss",
-			"indices": [],
 			"name": "Tails Right MISS"
 		},
 		{
@@ -71,35 +93,14 @@
 				-88,
 				122
 			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singLEFTmiss",
 			"indices": [],
+			"fps": 24,
+			"anim": "singRIGHTmiss",
+			"loop": false,
 			"name": "Tails Left MISS"
-		},
-		{
-			"offsets": [
-				-3,
-				7
-			],
-			"loop": false,
-			"fps": 24,
-			"anim": "singDOWNmiss",
-			"indices": [],
-			"name": "Tails Down MISS"
-		},
-		{
-			"loop": true,
-			"offsets": [
-				-95,
-				124
-			],
-			"anim": "idle",
-			"fps": 24,
-			"name": "Tails Idle",
-			"indices": []
 		}
 	],
+	"vocals_file": "",
 	"no_antialiasing": false,
 	"image": "characters/Tails",
 	"position": [

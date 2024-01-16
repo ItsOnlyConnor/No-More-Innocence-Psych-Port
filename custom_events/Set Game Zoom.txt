@@ -1,0 +1,4 @@
+Zooms the game's camera.
+
+Value 1 - The Zoom Intensitiy.
+Value 2 = How long it takes for the camera to zoom in.

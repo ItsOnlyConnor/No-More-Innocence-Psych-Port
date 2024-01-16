@@ -7,10 +7,10 @@
 	// string - A text instead of numbers/false and true, you gotta set up "options" variable to it
 	// key - TO BE IMPLEMENTED
 	{
-		"save": "chromaticShader",
-		"name": "Chromatic Abberration", //Name shown on the mod settings menu
+		"save": "static",
+		"name": "Static", //Name shown on the mod settings menu
 		"type": "bool",
-		"description": "Toggles chromatic abberration, may cause lag on lower end systems.", //Description shown on the mod settings menu
+		"description": "Toggles static, may cause lag on lower end systems.", //Description shown on the mod settings menu
 		"value": true //This is the default value
 	},
 	{
@@ -56,11 +56,11 @@
 		"value": true //This is the default value
 	},
 	{
-		"save": "windowZooming",
-		"name": "Window Zooming", //Name shown on the mod settings menu
+		"save": "freeplayEvents",
+		"name": "Do Events In Freeplay", //Name shown on the mod settings menu
 		"type": "bool",
-		"description": "When enabled, the game's window zooms in and out at certain parts.\nCan cause lag on MOST systems.", //Description shown on the mod settings menu
-		"value": false //This is the default value
+		"description": "When enabled, song events occur when playing in Freeplay.", //Description shown on the mod settings menu
+		"value": true //This is the default value
 	},
 	{
 		"save": "pcMech",
